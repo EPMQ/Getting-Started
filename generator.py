@@ -83,26 +83,22 @@ for i in tqdm(range(0, 40)):
 
 print("Done")
 
-spark = SparkSession.builder \
-    .master("local") \
-    .config("spark.sql.autoBroadcastJoinThreshold", -1) \
-    .appName("Exercise1") \
-    .getOrCreate()
+spark = SparkSession.builder.getOrCreate()
 
 products = spark.read.csv(
     "products.csv", header=True, mode="DROPMALFORMED"
 )
-products.show()
+# products.show()
 products.write.parquet("products_parquet", mode="overwrite")
 
 sales = spark.read.csv(
     "sales.csv", header=True, mode="DROPMALFORMED"
 )
-sales.show()
+# sales.show()
 sales.repartition(200, col("product_id")).write.parquet("sales_parquet", mode="overwrite")
 
 sellers = spark.read.csv(
     "sellers.csv", header=True, mode="DROPMALFORMED"
 )
-sellers.show()
+# sellers.show()
 sellers.write.parquet("sellers_parquet", mode="overwrite")
