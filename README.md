@@ -1,2 +1,2 @@
-# Exercises
-Repository to store exercises for introducing newbies to some important concepts used in our projects.
+# Spark Exercises
+**Source:** [six spark exercises to rule them all](https://towardsdatascience.com/six-spark-exercises-to-rule-them-all-242445b24565)
