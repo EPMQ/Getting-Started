@@ -1,10 +1,11 @@
-import pandas as pd
-from tqdm import tqdm
 import csv
 import random
 import string
+
+import pandas as pd
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
+from tqdm import tqdm
 
 random.seed(1999)
 
@@ -47,14 +48,14 @@ for s in tqdm(seller_ids):
 #   Save dataframe
 df = pd.DataFrame(sellers)
 df.columns = ["seller_id", "seller_name", "daily_target"]
-df.to_csv("sellers.csv", index=False)
+df.to_csv("data/sellers.csv", index=False)
 
 #   Generate sales
 total_rows = 500000
 prod_zero = int(total_rows * 0.95)
 prod_others = total_rows - prod_zero + 1
 df_array = [["order_id", "product_id", "seller_id", "date", "num_pieces_sold", "bill_raw_text"]]
-with open('sales.csv', 'w', newline='') as f:
+with open('data/sales.csv', 'w', newline='') as f:
     csvwriter = csv.writer(f)
     csvwriter.writerows(df_array)
 
@@ -66,7 +67,7 @@ for i in tqdm(range(0, 40)):
         order_id += 1
         df_array.append([order_id, 0, 0, random.choice(dates), random.randint(1, 100), random_string(500)])
 
-    with open('sales.csv', 'a', newline='') as f:
+    with open('data/sales.csv', 'a', newline='') as f:
         csvwriter = csv.writer(f)
         csvwriter.writerows(df_array)
 
@@ -77,7 +78,7 @@ for i in tqdm(range(0, 40)):
             [order_id, random.choice(product_ids), random.choice(seller_ids), random.choice(dates),
              random.randint(1, 100), random_string(500)])
 
-    with open('sales.csv', 'a', newline='') as f:
+    with open('data/sales.csv', 'a', newline='') as f:
         csvwriter = csv.writer(f)
         csvwriter.writerows(df_array)
 
@@ -86,19 +87,19 @@ print("Done")
 spark = SparkSession.builder.getOrCreate()
 
 products = spark.read.csv(
-    "products.csv", header=True, mode="DROPMALFORMED"
+    "data/products.csv", header=True, mode="DROPMALFORMED"
 )
 # products.show()
-products.write.parquet("products_parquet", mode="overwrite")
+products.write.parquet("data/products_parquet", mode="overwrite")
 
 sales = spark.read.csv(
-    "sales.csv", header=True, mode="DROPMALFORMED"
+    "data/sales.csv", header=True, mode="DROPMALFORMED"
 )
 # sales.show()
-sales.repartition(200, col("product_id")).write.parquet("sales_parquet", mode="overwrite")
+sales.repartition(200, col("product_id")).write.parquet("data/sales_parquet", mode="overwrite")
 
 sellers = spark.read.csv(
-    "sellers.csv", header=True, mode="DROPMALFORMED"
+    "data/sellers.csv", header=True, mode="DROPMALFORMED"
 )
 # sellers.show()
-sellers.write.parquet("sellers_parquet", mode="overwrite")
+sellers.write.parquet("data/sellers_parquet", mode="overwrite")
