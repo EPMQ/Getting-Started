@@ -28,6 +28,7 @@ Repository to store exercises for introducing newbies to some important concepts
 
 ### Data Science with Python
 - [Python Data Science Tutorial](https://www.youtube.com/watch?v=hVcEv7rEN24&list=PL7yh-TELLS1FfO5Q8KHK31VgsrcnWcTAk) - NeuralNine
+- [NumPy Full Python Course - Data Science Fundamentals](https://youtu.be/4c_mwnYdbhQ) - NeuralNine
 - [Pandas Tutorial](https://www.youtube.com/watch?v=ZyhVh-qRZPA&list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS) - Corey Schafer
 - [Matplotlib Tutorial](https://www.youtube.com/watch?v=UO98lJQ3QGI&list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_) - Corey Schafer
 
@@ -38,6 +39,8 @@ Repository to store exercises for introducing newbies to some important concepts
 
 ### Apache Spark
 - [PySpark Tutorial](https://youtu.be/_C8kWso4ne4) - FreeCodeCamp.org / Krish Naik
+- [PySpark – A Beginner’s Guide to Apache Spark and Big Data](https://algotrading101.com/learn/pyspark-guide/) - algotrading 101 Blog
+- [Introduction to PySpark](https://medium.com/the-researchers-guide/introduction-to-pyspark-a61f7217398e) - Rahul Raoniar (Note: Open in anonimous window or refresh cookies if you exceeded your daily free readings)
 
 ### Docker
 - [Docker Tutorial for Beginners](https://youtu.be/fqMOX6JJhGo) - FreeCodeCamp.org
