@@ -5,6 +5,10 @@ Repository to store exercises for introducing newbies to some important concepts
 
 [Python homepage](https://www.python.org)
 
+### Suggested Integrated Development Environments (IDEs)
+- [VSCode](https://code.visualstudio.com) (Free)
+- [PyCharm](https://www.jetbrains.com/pycharm/) (PyCharm Community is free | Pycharm Professional has a [Free Educational License](https://www.jetbrains.com/community/education/#students) for students)
+
 ### Programming Concepts
 - [Algorithms & Data Structs](https://youtu.be/jQqQpPMYPXs) - NeuralNine
 - [Algorithms and Data Structures Tutorial - Full Course for Beginners](https://youtu.be/8hly31xKli0) - FreeCodeCamp.org / TeamTreeHouse
@@ -18,6 +22,10 @@ Repository to store exercises for introducing newbies to some important concepts
 - [Advanced Python - Complete Course](https://www.youtube.com/watch?v=QLTdOEn79Rc&list=PLqnslRFeH2UqLwzS0AwKDKLrpYBKzLBy2) - Python Engineer
 - [Beginner Python Tutorials](https://www.youtube.com/watch?v=s3IvdkCq2_c&list=PL_c9BZzLwBRKK8ndQBBKolg7IxrC5T6Ws) - Caleb Curry
 
+#### Learn by coding
+- [CodeWars](https://www.codewars.com)
+- [py.CheckiO](https://py.checkio.org)
+
 ### Python Extras
 - [Python Tips and Tricks](https://www.youtube.com/watch?v=Wz5oLT55_jY&list=PL7yh-TELLS1GNyuvPsFEqb7JVMEUTtuau) - NeuralNine
 - [Python Misc Projects](https://www.youtube.com/watch?v=5x6iAKdJB6U&list=PL7yh-TELLS1EgOLIPo1sVuf_rDPEp33S8) - NeuralNine
@@ -25,6 +33,12 @@ Repository to store exercises for introducing newbies to some important concepts
 - [10 Python Tips and Tricks For Writing Better Code](https://youtu.be/C-gEQdGVXbk) - Corey Schafer
 - [11 Tips And Tricks To Write Better Python Code](https://youtu.be/8OKTAedgFYg) - Python Engineer
 - [50 Python Tips and Tricks for Beginners](https://youtu.be/F3T8tg2tVKM) - Caleb Curry
+
+#### Useful libs and docs
+- [Pylint - Static code analyser](https://pypi.org/project/pylint/)
+- [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+- [Pyenv - Virtual Environment Manager](https://github.com/pyenv/pyenv)
+- [Anaconda - Virtual Environment Manager](https://www.anaconda.com)
 
 ### Data Science with Python
 - [Python Data Science Tutorial](https://www.youtube.com/watch?v=hVcEv7rEN24&list=PL7yh-TELLS1FfO5Q8KHK31VgsrcnWcTAk) - NeuralNine
