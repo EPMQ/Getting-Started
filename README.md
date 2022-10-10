@@ -5,6 +5,10 @@ Repository to store exercises for introducing newbies to some important concepts
 
 [Python homepage](https://www.python.org)
 
+### English
+- [Ingles para iniciantes](https://www.youtube.com/watch?v=X5TdMsc4YCg&list=PL41dMNqXopt85RhRgFp_jdoI5Bz7DUG-c)
+- [Pratique ouvindo inglês nativo](https://youtu.be/jLA83e3jdSE)
+
 ### Suggested Integrated Development Environments (IDEs)
 - [VSCode](https://code.visualstudio.com) (Free)
 - [PyCharm](https://www.jetbrains.com/pycharm/) (PyCharm Community is free | Pycharm Professional has a [Free Educational License](https://www.jetbrains.com/community/education/#students) for students)
