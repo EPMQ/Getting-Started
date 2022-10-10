@@ -18,6 +18,9 @@ Repository to store exercises for introducing newbies to some important concepts
 - [Algorithms and Data Structures Tutorial - Full Course for Beginners](https://youtu.be/8hly31xKli0) - FreeCodeCamp.org / TeamTreeHouse
 - [Data Structures and Algorithms](https://www.youtube.com/watch?v=4RLhuZ3N9nc&list=PL_c9BZzLwBRLpDEpYRFXKBN-2ZCsAx0ps) - Caleb Curry
 
+### Linux Terminal (Bash)
+- [Beginner's Guide to the Bash Terminal](https://youtu.be/oxuRxtrO2Ag) - Joe Collins
+
 ### Python Tutorials
 - [Python from Zero to Hero](https://youtu.be/t8pPdKYpowI) - Coding with Nana
 - [Learn Python - Full Course for Beginners](https://youtu.be/rfscVS0vtbw) - FreeCodeCamp.org
@@ -54,6 +57,9 @@ Repository to store exercises for introducing newbies to some important concepts
 - [Python Machine Learning Tutorial (Data Science)](https://youtu.be/7eh4d6sabA0) - Programming with Mosh
 - [Python Machine Learning Tutorial](https://www.youtube.com/watch?v=jg5paDArl3E&list=PL7yh-TELLS1EZGz1-VDltwdwZvPV-jliQ) - NeuralNine
 - [Machine Learning from Scratch - Python Tutorials](https://www.youtube.com/watch?v=ngLyX54e1LU&list=PLqnslRFeH2Upcrywf-u2etjdxxkL8nl7E) - Python Engineer
+
+#### MLOps
+- Managing the Complete Machine Learning Lifecycle with MLflow: [Part 1](https://youtu.be/x3cxvsUFVZA), [Part 2](https://youtu.be/g5ibwiSH1uA), and [Part 3](https://youtu.be/AxYmj8ufKKY) - Databricks
 
 ### Apache Spark
 - [PySpark Tutorial](https://youtu.be/_C8kWso4ne4) - FreeCodeCamp.org / Krish Naik
