@@ -40,6 +40,9 @@ This subsection contains a set of links to coding platforms where you can solve 
 
 - [CodeWars](https://www.codewars.com)
 - [py.CheckiO](https://py.checkio.org)
+- [Edabit](https://edabit.com)
+- [Project Euler](https://projecteuler.net/archives)
+- [190 Python Projects with Source Code](https://amankharwal.medium.com/130-python-projects-with-source-code-61f498591bb) - Aman Kharwal
 
 #### Python Extras
 
@@ -77,11 +80,13 @@ This section provides Data Science tutorials and common libraries used in this c
 
 #### Apache Spark
 
-Spark has become popular due to its ability to process large data sets at speed. By default, Spark is multi-threaded whereas Pandas is single-threaded. Spark code can be executed in a distributed way, on a Spark Cluster, whereas Pandas runs on a single machine. Spark is lazy, which means it will only execute when you collect (ie. when you actually need to return something), and in the meantime it builds up an execution plan and finds the optimal way to execute your code. This differs to Pandas, which is eager, and executes each step as it reaches it. Spark is also less likely to run out of memory as it will start using disk when it reaches its memory limit.
+Spark has become popular due to its ability to process large data sets at speed. By default, Spark is multi-threaded, executing code in a distributed way. Also, Spark is lazy, which means it will only execute when you collect (ie. when you actually need to return something), and in the meantime it builds up an execution plan and finds the optimal way to execute your code.
 
 - [PySpark Tutorial](https://youtu.be/_C8kWso4ne4) - FreeCodeCamp.org / Krish Naik
 - [PySpark – A Beginner’s Guide to Apache Spark and Big Data](https://algotrading101.com/learn/pyspark-guide/) - algotrading 101 Blog
 - [Introduction to PySpark](https://medium.com/the-researchers-guide/introduction-to-pyspark-a61f7217398e) - Rahul Raoniar (Note: Open in anonimous window or refresh cookies if you exceeded your daily free readings)
+- [From pandas to PySpark](https://towardsdatascience.com/from-pandas-to-pyspark-fd3a908e55a0) - Zolzaya Luvsandorj (Note: Open in anonimous window or refresh cookies if you exceeded your daily free readings)
+- [Ultimate PySpark Cheat Sheet](https://towardsdatascience.com/ultimate-pyspark-cheat-sheet-7d3938d13421) - Kovid Rathee (Note: Open in anonimous window or refresh cookies if you exceeded your daily free readings)
 
 ### Machine Learning with Python
 
@@ -90,20 +95,33 @@ This section provides Machine Learning tutorials.
 - [Python Machine Learning Tutorial (Data Science)](https://youtu.be/7eh4d6sabA0) - Programming with Mosh
 - [Python Machine Learning Tutorial](https://www.youtube.com/watch?v=jg5paDArl3E&list=PL7yh-TELLS1EZGz1-VDltwdwZvPV-jliQ) - NeuralNine
 - [Machine Learning from Scratch - Python Tutorials](https://www.youtube.com/watch?v=ngLyX54e1LU&list=PLqnslRFeH2Upcrywf-u2etjdxxkL8nl7E) - Python Engineer
+- [Machine Learning with Python](https://www.tutorialspoint.com/machine_learning_with_python/machine_learning_with_python_tutorial.pdf) - TutorialsPoint
+
+#### Datasets
+
+This subsection lists a set of public datasets to practice your machine learning skills.
+
+- [Top 23 Best Public Datasets for Practicing Machine Learning](https://rubikscode.net/2021/07/19/top-23-best-public-datasets-for-practicing-machine-learning/#wcd)
 
 #### MLOps
 
-MLOps is a set of practices that aims to deploy and maintain machine learning models in production reliably and efficiently. A common tool used for MLOps is MLFlow.
+MLOps is a set of practices that aims to deploy and maintain machine learning models in production reliably and efficiently.
 
 - Managing the Complete Machine Learning Lifecycle with MLflow: [Part 1](https://youtu.be/x3cxvsUFVZA), [Part 2](https://youtu.be/g5ibwiSH1uA), and [Part 3](https://youtu.be/AxYmj8ufKKY) - Databricks
 
 
 ### Docker
+
+Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers.
+
 - [Docker Tutorial for Beginners](https://youtu.be/fqMOX6JJhGo) - FreeCodeCamp.org
 - [Docker Tutorial for Beginners](https://youtu.be/3c-iBn73dDE) - Coding with Nana
 - [Docker Tutorial for Beginners](https://youtu.be/p28piYY_wv8) - Amigoscode
 
 ### Git & Github
+
+Git is a software for distributed version control (tracking changes in any set of files) usually used for coordinating work among programmers collaboratively developing source code during software development. GitHub is an internet hosting service for software development and version control using Git.
+
 - [Git and GitHub for Beginners - Crash Course](https://youtu.be/RGOj5yH7evk) - FreeCodeCamp.org
 - [Git Tutorial for Beginners: Learn Git in 1 Hour](https://youtu.be/8JJ101D3knE) - Programming with Mosh
 
@@ -112,7 +130,7 @@ Repository to store exercises for introducing newbies to some important concepts
 
 # Extra (out-of-office) Materials
 
-## English for beginners
+## Ingles para iniciantes
 - [Ingles para iniciantes](https://www.youtube.com/watch?v=X5TdMsc4YCg&list=PL41dMNqXopt85RhRgFp_jdoI5Bz7DUG-c)
 - [Pratique ouvindo inglês nativo](https://youtu.be/jLA83e3jdSE)
 
