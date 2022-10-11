@@ -126,7 +126,13 @@ Git is a software for distributed version control (tracking changes in any set o
 - [Git Tutorial for Beginners: Learn Git in 1 Hour](https://youtu.be/8JJ101D3knE) - Programming with Mosh
 
 # Exercises
-Repository to store exercises for introducing newbies to some important concepts used in our projects.
+
+## Python
+
+## Apache Spark
+- [Six Spark Exercises to Rule Them All](https://towardsdatascience.com/six-spark-exercises-to-rule-them-all-242445b24565)
+- [Python + Docker exercise](https://github.com/EPMQ/Getting-Started/tree/pydocker)
+
 
 # Extra (out-of-office) Materials
 
