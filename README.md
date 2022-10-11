@@ -127,11 +127,8 @@ Git is a software for distributed version control (tracking changes in any set o
 
 # Exercises
 
-## Python
-
-## Apache Spark
-- [Six Spark Exercises to Rule Them All](https://towardsdatascience.com/six-spark-exercises-to-rule-them-all-242445b24565)
-- [Python + Docker exercise](https://github.com/EPMQ/Getting-Started/tree/pydocker)
+- [Spark](https://towardsdatascience.com/six-spark-exercises-to-rule-them-all-242445b24565)
+- [Python + Docker](https://github.com/EPMQ/Getting-Started/tree/pydocker)
 
 
 # Extra (out-of-office) Materials
