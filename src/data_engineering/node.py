@@ -29,7 +29,7 @@ def split_data(input_path: str, output_path: str, train_fraction: float) -> None
     
 # Do not edit!
 if __name__ == '__main__':
-    import argparser
+    import argparse
     
     parser = argparse.ArgumentParser(description='Data Engineering node.')
     parser.add_argument('input_path', type=str, help='Path to csv file containing features and target')
