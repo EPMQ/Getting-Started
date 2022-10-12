@@ -77,6 +77,9 @@ This section provides Data Science tutorials and common libraries used in this c
 - [NumPy Full Python Course - Data Science Fundamentals](https://youtu.be/4c_mwnYdbhQ) - NeuralNine
 - [Pandas Tutorial](https://www.youtube.com/watch?v=ZyhVh-qRZPA&list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS) - Corey Schafer
 - [Matplotlib Tutorial](https://www.youtube.com/watch?v=UO98lJQ3QGI&list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_) - Corey Schafer
+- [Data Science Foundations](https://www.mygreatlearning.com/academy/learn-for-free/courses/data-science-foundations) - Great Learning
+- [Applied Data Science with Python](https://www.simplilearn.com/getting-started-data-science-with-python-skillup) - SkillUp by Simplilearn
+- [Python basics for data analysis](https://openclassrooms.com/en/courses/2304731-learn-python-basics-for-data-analysis) - OpenClassrooms
 
 #### Apache Spark
 
@@ -96,6 +99,7 @@ This section provides Machine Learning tutorials.
 - [Python Machine Learning Tutorial](https://www.youtube.com/watch?v=jg5paDArl3E&list=PL7yh-TELLS1EZGz1-VDltwdwZvPV-jliQ) - NeuralNine
 - [Machine Learning from Scratch - Python Tutorials](https://www.youtube.com/watch?v=ngLyX54e1LU&list=PLqnslRFeH2Upcrywf-u2etjdxxkL8nl7E) - Python Engineer
 - [Machine Learning with Python](https://www.tutorialspoint.com/machine_learning_with_python/machine_learning_with_python_tutorial.pdf) - TutorialsPoint
+- [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/) - Google
 
 #### Datasets
 
