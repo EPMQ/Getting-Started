@@ -17,7 +17,7 @@ def split_data(input_path: str, output_path: str, train_fraction: float) -> None
     # Step 2: Split the data into training and test sets. Use argument `train_fraction` to define the size of the training set.
     
     
-    # Step 3: Split the training data into features and targets (X_train and Y_train respectively)
+    # Step 3: Split the training data into features and targets (X_train and Y_train respectively). The target column is `species`.
     
     
     # Step 4: Repeat Step 3 to the test data.
