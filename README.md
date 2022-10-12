@@ -108,6 +108,7 @@ This subsection lists a set of public datasets to practice your machine learning
 MLOps is a set of practices that aims to deploy and maintain machine learning models in production reliably and efficiently.
 
 - Managing the Complete Machine Learning Lifecycle with MLflow: [Part 1](https://youtu.be/x3cxvsUFVZA), [Part 2](https://youtu.be/g5ibwiSH1uA), and [Part 3](https://youtu.be/AxYmj8ufKKY) - Databricks
+- [MLOps for Dummies](https://www.databricks.com/wp-content/uploads/2022/09/mlops_for_dummies_databricks_special_edition.pdf)
 
 
 ### Docker
