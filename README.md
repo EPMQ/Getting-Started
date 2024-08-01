@@ -59,7 +59,9 @@ This subsection contains a set of links to videos with tips and tricks to hone y
 
 This subsection provides some useful libraries to write clean and concise code.
 
+- [Ruff - An extremely fast Python linter, written in Rust.](https://astral.sh/ruff)
 - [Pylint - Static code analyser](https://pypi.org/project/pylint/)
+- [Poetry - Python packaging and dependency management made easy](https://python-poetry.org/)
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 
 #### Virtual Environments
