@@ -136,6 +136,7 @@ Git is a software for distributed version control (tracking changes in any set o
 
 - [Spark](https://towardsdatascience.com/six-spark-exercises-to-rule-them-all-242445b24565)
 - [Python + Docker](https://github.com/EPMQ/Getting-Started/tree/pydocker)
+- [AI Project](https://github.com/EPMQ/Getting-Started/tree/projeto/AI)
 
 
 # Extra (out-of-office) Materials
