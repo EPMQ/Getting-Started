@@ -83,3 +83,47 @@ You are provided with a set of 12 optimization test functions, each of which rep
   Install via pip if necessary:
   ```bash
   pip install pymoo scipy nevergrad optuna
+
+Good luck!
+
+### Test Functions (Mathematical Form)
+
+Here are the mathematical expressions for each test function:
+
+1. **Sphere**:  
+   $ f(x) = \sum_{i=1}^{n} x_i^2 $
+
+2. **Rosenbrock**:  
+   $ f(x) = \sum_{i=1}^{n-1} \left[ 100 \cdot (x_{i+1} - x_i^2)^2 + (1 - x_i)^2 \right]$
+
+3. **Ackley**:  
+   $ f(x) = -20 \cdot \exp\left( -0.2 \cdot \sqrt{\frac{1}{n} \sum_{i=1}^{n} x_i^2} \right) - \exp\left( \frac{1}{n} \sum_{i=1}^{n} \cos(2\pi x_i) \right) + 20 + e $
+
+4. **Rastrigin**:  
+   $ f(x) = 10 \cdot n + \sum_{i=1}^{n} \left( x_i^2 - 10 \cdot \cos(2\pi x_i) \right) $
+
+5. **Griewank**:  
+   $ f(x) = 1 + \frac{1}{4000} \sum_{i=1}^{n} x_i^2 - \prod_{i=1}^{n} \cos\left( \frac{x_i}{\sqrt{i}} \right) $
+
+6. **Schwefel**:  
+   $ f(x) = 418.9829 \cdot n - \sum_{i=1}^{n} x_i \cdot \sin(\sqrt{|x_i|}) $
+
+7. **Levy**:  
+   $ f(x) = \sin^2(\pi w_1) + \sum_{i=1}^{n-1} \left( w_i - 1 \right)^2 \cdot \left( 1 + 10 \cdot \sin^2(\pi w_i + 1) \right) + (w_n - 1)^2 \cdot \left( 1 + \sin^2(2\pi w_n) \right) $
+   
+   where $\left( w_i = 1 + \frac{x_i - 1}{4} \right)$
+
+8. **Beale**:  
+   $ f(x_1, x_2) = \left( 1.5 - x_1 + x_1 \cdot x_2 \right)^2 + \left( 2.25 - x_1 + x_1 \cdot x_2^2 \right)^2 + \left( 2.625 - x_1 + x_1 \cdot x_2^3 \right)^2 $
+
+9. **Booth**:  
+   $ f(x_1, x_2) = (x_1 + 2x_2 - 7)^2 + (2x_1 + x_2 - 5)^2 $
+
+10. **Himmelblau**:  
+    $ f(x_1, x_2) = (x_1^2 + x_2 - 11)^2 + (x_1 + x_2^2 - 7)^2 $
+
+11. **Easom**:  
+    $ f(x_1, x_2) = -\cos(x_1) \cdot \cos(x_2) \cdot \exp\left( - (x_1 - \pi)^2 - (x_2 - \pi)^2 \right) $
+
+12. **Michalewicz**:  
+    $ f(x) = - \sum_{i=1}^{n} \sin(x_i) \cdot \left( \sin\left( \frac{i \cdot x_i^2}{\pi} \right) \right)^{2m} $
