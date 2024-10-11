@@ -155,9 +155,9 @@ Git is a software for distributed version control (tracking changes in any set o
 
 # Extra (out-of-office) Materials
 
-## Ingles para iniciantes
+### Ingles para iniciantes
 - [Ingles para iniciantes](https://www.youtube.com/watch?v=X5TdMsc4YCg&list=PL41dMNqXopt85RhRgFp_jdoI5Bz7DUG-c)
 - [Pratique ouvindo inglês nativo](https://youtu.be/jLA83e3jdSE)
 
-## Bash CLI (linux terminal)
+### Bash CLI (linux terminal)
 - [Beginner's Guide to the Bash Terminal](https://youtu.be/oxuRxtrO2Ag) - Joe Collins
