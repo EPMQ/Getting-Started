@@ -6,16 +6,15 @@ In this repository you will find a list of tutorials and exercises intented to g
 
 Most of these tutorials and exercises use python. You can download a suitable version for your machine from the [Python homepage](https://www.python.org). We recommend downloading at least version 3.8 or later.
 
-## Supplementary Materials
 
-### Integrated Development Environments (IDEs)
+## Integrated Development Environments (IDEs)
 
 Bellow is a list of suggested IDEs to use, both are free (or offer a free licence for students) to use and contain various functionalities and plugins to ease you development. However, you can always use any IDE of your choice if you prefer one not listed here.
 
 - [VSCode](https://code.visualstudio.com) (Free)
 - [PyCharm](https://www.jetbrains.com/pycharm/) (PyCharm Community is free | Pycharm Professional has a [Free Educational License](https://www.jetbrains.com/community/education/#students) for students)
 
-### Programming Concepts
+## Programming Concepts
 
 If you are new to software development, this section may help you understand what algorithms are and what structures they use, as well as common concepts used in this field.
 
@@ -23,7 +22,7 @@ If you are new to software development, this section may help you understand wha
 - [Algorithms and Data Structures Tutorial - Full Course for Beginners](https://youtu.be/8hly31xKli0) - FreeCodeCamp.org / TeamTreeHouse
 - [Data Structures and Algorithms](https://www.youtube.com/watch?v=4RLhuZ3N9nc&list=PL_c9BZzLwBRLpDEpYRFXKBN-2ZCsAx0ps) - Caleb Curry
 
-### Python Tutorials
+## Python Tutorials
 
 This section intends to teach you how to program using Python.
 
@@ -34,7 +33,7 @@ This section intends to teach you how to program using Python.
 - [Advanced Python - Complete Course](https://www.youtube.com/watch?v=QLTdOEn79Rc&list=PLqnslRFeH2UqLwzS0AwKDKLrpYBKzLBy2) - Python Engineer
 - [Beginner Python Tutorials](https://www.youtube.com/watch?v=s3IvdkCq2_c&list=PL_c9BZzLwBRKK8ndQBBKolg7IxrC5T6Ws) - Caleb Curry
 
-#### Learn by coding
+### Learn by coding
 
 This subsection contains a set of links to coding platforms where you can solve python exercises to assist your learning path and hone your skills.
 
@@ -44,7 +43,7 @@ This subsection contains a set of links to coding platforms where you can solve 
 - [Project Euler](https://projecteuler.net/archives)
 - [190 Python Projects with Source Code](https://amankharwal.medium.com/130-python-projects-with-source-code-61f498591bb) - Aman Kharwal
 
-#### Python Extras
+### Python Extras
 
 This subsection contains a set of links to videos with tips and tricks to hone your skills.
 
@@ -55,7 +54,7 @@ This subsection contains a set of links to videos with tips and tricks to hone y
 - [11 Tips And Tricks To Write Better Python Code](https://youtu.be/8OKTAedgFYg) - Python Engineer
 - [50 Python Tips and Tricks for Beginners](https://youtu.be/F3T8tg2tVKM) - Caleb Curry
 
-#### Useful libs and docs
+### Useful libs and docs
 
 This subsection provides some useful libraries to write clean and concise code.
 
@@ -64,14 +63,14 @@ This subsection provides some useful libraries to write clean and concise code.
 - [Poetry - Python packaging and dependency management made easy](https://python-poetry.org/)
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 
-#### Virtual Environments
+### Virtual Environments
 
 This subsection contains two largely used python virtual environments managers. Virtual environments are usefull when working with multiple projects to isolate the package dependencies and avoid version conflict between projects. **We strongly recommend that you use one of these tools**. For beginners, Anaconda might be easier to use since it provides a friendly Graphical User Interface (GUI).
 
 - [Pyenv - Virtual Environment Manager](https://github.com/pyenv/pyenv)
 - [Anaconda - Virtual Environment Manager](https://www.anaconda.com)
 
-### Data Science with Python
+## Data Science with Python
 
 This section provides Data Science tutorials and common libraries used in this context.
 
@@ -83,7 +82,7 @@ This section provides Data Science tutorials and common libraries used in this c
 - [Applied Data Science with Python](https://www.simplilearn.com/getting-started-data-science-with-python-skillup) - SkillUp by Simplilearn
 - [Python basics for data analysis](https://openclassrooms.com/en/courses/2304731-learn-python-basics-for-data-analysis) - OpenClassrooms
 
-#### Apache Spark
+### Apache Spark
 
 Spark has become popular due to its ability to process large data sets at speed. By default, Spark is multi-threaded, executing code in a distributed way. Also, Spark is lazy, which means it will only execute when you collect (ie. when you actually need to return something), and in the meantime it builds up an execution plan and finds the optimal way to execute your code.
 
@@ -93,7 +92,7 @@ Spark has become popular due to its ability to process large data sets at speed.
 - [From pandas to PySpark](https://towardsdatascience.com/from-pandas-to-pyspark-fd3a908e55a0) - Zolzaya Luvsandorj (Note: Open in anonimous window or refresh cookies if you exceeded your daily free readings)
 - [Ultimate PySpark Cheat Sheet](https://towardsdatascience.com/ultimate-pyspark-cheat-sheet-7d3938d13421) - Kovid Rathee (Note: Open in anonimous window or refresh cookies if you exceeded your daily free readings)
 
-### Machine Learning with Python
+## Machine Learning with Python
 
 This section provides Machine Learning tutorials.
 
@@ -103,21 +102,36 @@ This section provides Machine Learning tutorials.
 - [Machine Learning with Python](https://www.tutorialspoint.com/machine_learning_with_python/machine_learning_with_python_tutorial.pdf) - TutorialsPoint
 - [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/) - Google
 
-#### Datasets
+### Datasets
 
 This subsection lists a set of public datasets to practice your machine learning skills.
 
 - [Top 23 Best Public Datasets for Practicing Machine Learning](https://rubikscode.net/2021/07/19/top-23-best-public-datasets-for-practicing-machine-learning/#wcd)
 
-#### MLOps
+### MLOps
 
 MLOps is a set of practices that aims to deploy and maintain machine learning models in production reliably and efficiently.
 
 - Managing the Complete Machine Learning Lifecycle with MLflow: [Part 1](https://youtu.be/x3cxvsUFVZA), [Part 2](https://youtu.be/g5ibwiSH1uA), and [Part 3](https://youtu.be/AxYmj8ufKKY) - Databricks
 - [MLOps for Dummies](https://www.databricks.com/wp-content/uploads/2022/09/mlops_for_dummies_databricks_special_edition.pdf)
 
+## Modern Optimization with Python
 
-### Docker
+An optimization problem consists of maximizing or minimizing a real function by systematically choosing input values from within an allowed set and computing the value of the function.
+
+- [Optimization in Python: Techniques, Packages, and Best Practices](https://www.datacamp.com/tutorial/optimization-in-python) - Datacamp
+- [How to Choose an Optimization Algorithm](https://machinelearningmastery.com/tour-of-optimization-algorithms/) - Machine Learning Mastery
+- [Genetic Algorithms in python](https://youtu.be/CRtZ-APJEKI?feature=shared) - NeuralNine
+- [Modern Optimization Methods in Python](https://youtu.be/geFER2oVvvU?feature=shared) - SciPy 2017 Tutorial | Michael McKerns
+
+### Libraries
+
+- [SciPy](https://docs.scipy.org/doc/scipy/tutorial/optimize.html)
+- [PyMOO](https://pymoo.org/)
+- [Nevergrad](https://facebookresearch.github.io/nevergrad/)
+
+
+## Docker
 
 Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers.
 
@@ -125,7 +139,7 @@ Docker is a set of platform as a service (PaaS) products that use OS-level virtu
 - [Docker Tutorial for Beginners](https://youtu.be/3c-iBn73dDE) - Coding with Nana
 - [Docker Tutorial for Beginners](https://youtu.be/p28piYY_wv8) - Amigoscode
 
-### Git & Github
+## Git & Github
 
 Git is a software for distributed version control (tracking changes in any set of files) usually used for coordinating work among programmers collaboratively developing source code during software development. GitHub is an internet hosting service for software development and version control using Git.
 
