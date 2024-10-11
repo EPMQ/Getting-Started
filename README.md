@@ -91,7 +91,7 @@ Good luck!
 Here are the mathematical expressions for each test function:
 
 1. **Sphere**:  
-   $ f(x) = \sum_{i=1}^{n} x_i^2 $
+   $$\left() f(x) = \sum_{i=1}^{n} x_i^2 \right)$$
 
 2. **Rosenbrock**:  
    $ f(x) = \sum_{i=1}^{n-1} \left[ 100 \cdot (x_{i+1} - x_i^2)^2 + (1 - x_i)^2 \right]$
